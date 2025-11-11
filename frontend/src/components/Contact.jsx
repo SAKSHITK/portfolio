@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/contact", formData);
+      const res = await axios.post("https://portfolio-ashy-sigma-62.vercel.app/api/contact", formData);
       setStatus(res.data.message);
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
