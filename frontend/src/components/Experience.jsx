@@ -1,15 +1,15 @@
 import React from "react";
-import FutureIntern from "../assets/internship.png"; // Replace with actual logos
+import  DheeCodingLab from "../assets/dclgrow_logo.jpeg"; // Replace with actual logos
 
 const Experience = () => {
   const experiences = [
     {
-      company: "Future Interns",
+      company: "Dhee Coding Lab",
       role: "Full Stack Developer Intern",
-      period: "Sep 2025 – Present",
-      logo: FutureIntern,
+      period: "Feb 2026 – Present",
+      logo: DheeCodingLab,
       description:
-        "Worked on developing web applications using React, Node.js, and MongoDB. Implemented user authentication and REST APIs for internal projects.",
+        "Worked on developing web applications using HTML,CSS, Javascript and React js. Implemented user authentication and REST APIs for internal projects.",
     },
   ];
 

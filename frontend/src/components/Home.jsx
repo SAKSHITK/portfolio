@@ -9,7 +9,7 @@ import {
 
 const Home = () => {
   // phrases to type out
-  const phrases = ["Web Development", "Data Analysis"];
+  const phrases = [ "FrontEnd Developer"];
   const [displayText, setDisplayText] = useState("");
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -145,9 +145,9 @@ const Home = () => {
       </div>
 
       {/* Single Resume Button */}
-      <div style={{ marginTop: "30px" }}>
+      <div style={{ marginTop: "30px",marginBottom:"0px" }}>
         <a
-          href="https://drive.google.com/file/d/1QRzR0p5mUGjNTRU6XuYiD6CLpzM53d6s/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1x5rF3DQYgzDF23K7gp8HHVAAEk-UiFMR/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer"
           style={resumeBtn}
